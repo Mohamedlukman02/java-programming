@@ -1,0 +1,150 @@
+// array of 5 integers and print all elements
+
+public class Main {
+    public static void main(String[] args) {
+
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+    }
+}
+
+// Take 10 numbers as input and store them in an array
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int[] numbers = new int[10];
+
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = sc.nextInt();
+        }
+
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+    }
+}
+
+//Print the first element of an array
+
+public class Main {
+    public static void main(String[] args) {
+
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        System.out.println(numbers[0]);
+    }
+}
+
+// Print the last element of an array
+
+public class Main {
+    public static void main(String[] args) {
+
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        System.out.println(numbers[numbers.length - 1]);
+    }
+}
+
+// Change the value at index 3 to 100
+
+public class Main {
+    public static void main(String[] args) {
+
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        numbers[3] = 100;
+
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+    }
+}
+
+//Find the length of an array
+
+public class Main {
+    public static void main(String[] args) {
+
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        System.out.println(numbers.length);
+    }
+}
+//Take an index from the user and print the element at that index
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        System.out.print("Enter index: ");
+        int index = sc.nextInt();
+
+        System.out.println(numbers[index]);
+    }
+}
+
+// Replace the first element with 0
+
+public class Main {
+    public static void main(String[] args) {
+
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        numbers[0] = 0;
+
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+    }
+}
+
+//Replace the last element with -1
+
+public class Main {
+    public static void main(String[] args) {
+
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        numbers[numbers.length - 1] = -1;
+
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+    }
+}
+
+//Print all elements using both for loop and enhanced for-each loop
+
+public class Main {
+    public static void main(String[] args) {
+
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        // for loop
+        System.out.println("Using for loop:");
+
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+
+        // enhanced for-each loop
+        System.out.println("Using for-each loop:");
+
+        for (int number : numbers) {
+            System.out.println(number);
+        }
+    }
+}
