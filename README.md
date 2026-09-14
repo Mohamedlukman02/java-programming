@@ -1,6 +1,6 @@
 # Java Programming
 
-A collection of **Java practice programs, assignments, and coding exercises** created while learning and strengthening Core Java concepts for **Java Full Stack Development**.
+A collection of **Java practice programs, assignments, coding exercises, and mini projects** created while learning and strengthening Core Java concepts for **Java Full Stack Development**.
 
 ## About This Repository
 
@@ -19,9 +19,18 @@ This repository contains hands-on Java programs covering:
 - Exception handling
 - JDBC and MySQL
 - DTO mapping
+- CRUD application development
 - Basic problem-solving programs
 
-The repository is continuously updated as new Java exercises and assignments are completed.
+The repository is continuously updated as new Java exercises, assignments, and projects are completed.
+
+## Projects
+
+### 👨‍💼 Employee CRUD
+Java-based Employee CRUD application demonstrating basic employee management operations such as **Create, Read, Update, and Delete**.
+
+### 🎓 Student CRUD
+Java-based Student CRUD application for managing student records with **Create, Read, Update, and Delete** operations.
 
 ## Repository Contents
 
@@ -139,7 +148,7 @@ java-programming/
 └── VehicleRegistration.java
 ```
 
-The repository may contain additional Java files as new exercises are added.
+The repository may contain additional Java files and project folders as new exercises are added.
 
 ## Technologies and Tools
 
@@ -154,15 +163,15 @@ The repository may contain additional Java files as new exercises are added.
 
 1. Clone the repository.
 2. Open the project in Eclipse or another Java IDE.
-3. Open the required `.java` file.
+3. Open the required `.java` file or project folder.
 4. Make sure the package name matches the project structure.
 5. Run the class as a **Java Application**.
 6. For programs using `Scanner`, enter the requested input in the console.
-7. For JDBC programs, configure the MySQL database and JDBC connection details before running.
+7. For JDBC or CRUD projects, configure the MySQL database and connection details before running.
 
 ## Learning Purpose
 
-This repository is maintained as a practical learning portfolio to build strong foundations in **Core Java, JDBC, Object-Oriented Programming, and Java Full Stack Development** through regular coding practice.
+This repository is maintained as a practical learning portfolio to build strong foundations in **Core Java, JDBC, Object-Oriented Programming, CRUD application development, and Java Full Stack Development** through regular coding practice.
 
 ## Author
 
