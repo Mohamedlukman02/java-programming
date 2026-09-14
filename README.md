@@ -1,92 +1,173 @@
 # Java Programming
 
-A collection of Java practice programs, assignments, and coding exercises created while learning **Java Full Stack Development**.
+A collection of **Java practice programs, assignments, and coding exercises** created while learning and strengthening Core Java concepts for **Java Full Stack Development**.
 
-## About
+## About This Repository
 
-This repository contains hands-on Java programs covering core programming concepts, object-oriented programming, arrays, JDBC, string handling, DTO mapping, and operator-based assignments.
+This repository contains hands-on Java programs covering:
 
-## Topics Covered
-
-- Java Basics and Data Types
-- Operators and Expressions
+- Java basics and data types
+- Operators and arithmetic calculations
+- User input with `Scanner`
+- Strings, `StringBuilder`, and `StringBuffer`
 - Arrays
-- Strings
-- StringBuilder and StringBuffer
-- Constructors
+- Constructors and copy constructors
 - Encapsulation
+- Inheritance
+- Abstract classes
+- Interfaces
+- Exception handling
+- JDBC and MySQL
+- DTO mapping
+- Basic problem-solving programs
+
+The repository is continuously updated as new Java exercises and assignments are completed.
+
+## Repository Contents
+
+### Core Java Programs
+
+Examples include:
+
+- `Employee.java`
+- `ProductDetail.java`
+- `VehicleRegistration.java`
+- `HospitalPatientRecord.java`
+- `ElectricityBill.java`
+- `ShoppingBill.java`
+- `SimpleInterest.java`
+- `MultiplicationTable.java`
+- `StudentAverageandPercentage.java`
+- `ReverseEvenDigits.java`
+- `SumEvenOddDigits.java`
+- `FirstRepeatingDigit.java`
+- `FirstNonRepeated.java`
+
+### String Programs
+
+Practice programs include:
+
+- `CharacterFrequency.java`
+- `StringCompression.java`
+- `PalindromeModification.java`
+- `RemoveDuplicates.java`
+
+These programs focus on string manipulation and problem-solving using Java string APIs.
+
+### Object-Oriented Programming
+
+The repository contains examples for:
+
+- Encapsulation
+- Constructors
+- Copy Constructor
 - Inheritance
 - Abstract Classes
 - Interfaces
-- Exception Handling
-- JDBC
-- DTO Mapping
-- User Input and Basic Problem Solving
+- Instance Variables
+- Static Variables
 
-## Assignment-1: Data Types
+Related folders/files include:
 
-The `DataType1` package contains programs demonstrating primitive data types and variables.
+- `Encapsulation/`
+- `Copy Constructor/`
+- `Abstract Class/`
+- `Interface/`
+- `Instance Variables`
+- `Static Variable`
+- `Product Class.java`
 
-- `EmployeeDetails.java`
-- `ProductDetails.java`
-- `VehicleRegistration.java`
-- `PatientRecord.java`
+### JDBC and Database
 
-## Assignment-2: Operators
+The `JDBC_TASK/` folder contains Java Database Connectivity practice using **MySQL**.
 
-The `DataType1` package also contains operator-based programs using user input, arithmetic operators, variables, and expressions. No `if`, `else`, `switch`, loops, or ternary operator are used in these programs.
+Topics include connecting Java applications to a database and performing database operations with JDBC.
 
-- `EmployeeSalary.java` — Gross and net salary calculation
-- `ShoppingBill.java` — Discount, GST, and final payable amount
-- `StudentMarks.java` — Total, average, and percentage
-- `ElectricityBill.java` — Electricity charge, tax, and final bill
-- `BankInterest.java` — Simple interest and maturity amount
+### DTO Mapping
+
+The `DTO Mapping/` folder contains practice for mapping entity data to a **Data Transfer Object (DTO)** in Java applications.
+
+### Arrays
+
+The `Array/` folder contains examples and exercises for working with Java arrays and array operations.
+
+## Assignment Practice
+
+The repository also contains assignment programs for topics such as:
+
+- Data types
+- Operators
+- Arithmetic calculations
+- Employee salary calculation
+- Shopping bill calculation
+- Student marks and percentage
+- Electricity bill calculation
+- Simple interest calculation
 
 ## Repository Structure
 
 ```text
 java-programming/
-├── DataType1/
-│   ├── EmployeeDetails.java
-│   ├── ProductDetails.java
-│   ├── VehicleRegistration.java
-│   ├── PatientRecord.java
-│   ├── EmployeeSalary.java
-│   ├── ShoppingBill.java
-│   ├── StudentMarks.java
-│   ├── ElectricityBill.java
-│   └── BankInterest.java
-├── DTO Mapping/
-├── JDBC_TASK/
 ├── Abstract Class/
 ├── Array/
+├── Copy Constructor/
+├── DTO Mapping/
 ├── Encapsulation/
 ├── Interface/
-└── ...
+├── JDBC_TASK/
+├── Instance Variables
+├── Static Variable
+├── CharacterFrequency.java
+├── ElectricityBill.java
+├── Employee.java
+├── EmployeeSalaryCalculation.java
+├── FirstNonRepeated.java
+├── FirstRepeatingDigit.java
+├── HospitalPatientRecord.java
+├── MultiplicationTable.java
+├── PalindromeModification.java
+├── Product Class.java
+├── ProductDetail.java
+├── README.md
+├── RemoveDuplicates.java
+├── ReverseEvenDigits.java
+├── ShoppingBill.java
+├── SimpleInterest.java
+├── StringCompression.java
+├── StudentAverageandPercentage.java
+├── SumEvenOddDigits.java
+└── VehicleRegistration.java
 ```
 
-The repository also includes existing Java exercises for JDBC, DTO mapping, abstract classes, arrays, encapsulation, interfaces, constructors, strings, and other core Java topics.
+The repository may contain additional Java files as new exercises are added.
 
-## Technologies
+## Technologies and Tools
 
-- **Language:** Java
-- **Database:** MySQL (for JDBC exercises)
-- **Tools:** Eclipse, Git, GitHub
+- **Programming Language:** Java
+- **Database:** MySQL
+- **Database Connectivity:** JDBC
+- **IDE:** Eclipse
+- **Version Control:** Git
+- **Repository:** GitHub
 
-## How to Run
+## How to Run the Programs
 
 1. Clone the repository.
-2. Open the required `.java` file in Eclipse or another Java IDE.
-3. Make sure the package declaration matches the folder/package name.
-4. Run the class as a Java Application.
-5. For programs using `Scanner`, enter the requested values in the console.
+2. Open the project in Eclipse or another Java IDE.
+3. Open the required `.java` file.
+4. Make sure the package name matches the project structure.
+5. Run the class as a **Java Application**.
+6. For programs using `Scanner`, enter the requested input in the console.
+7. For JDBC programs, configure the MySQL database and JDBC connection details before running.
 
-## Purpose
+## Learning Purpose
 
-This repository is used for continuous Java practice and to build a strong foundation in **Core Java and Java Full Stack Development**.
+This repository is maintained as a practical learning portfolio to build strong foundations in **Core Java, JDBC, Object-Oriented Programming, and Java Full Stack Development** through regular coding practice.
 
 ## Author
 
 **Mohamed Lukman**
 
 GitHub: [Mohamedlukman02](https://github.com/Mohamedlukman02)
+
+LinkedIn: [Mohamed Lukman](https://www.linkedin.com/in/mohamed-lukman-ma/)
